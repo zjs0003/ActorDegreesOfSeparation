@@ -10,9 +10,34 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameViewController: UIViewController {
 
+struct Movie {
+    var name : String!
+}
+
+
+struct Actor {
+    var name: String!
+    var movies: [String]!
+}
+
+
+
+
+class GameViewController: UIViewController {
+    
+    @IBOutlet weak var input: UITextField!
+    
+var t1 = [Movie]()
     override func viewDidLoad() {
+        
+        t1 = [Movie(name: "Once Upon A Time in Hollywood")]
+        
+        
+        
+        
+        
+        
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {

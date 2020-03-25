@@ -17,6 +17,7 @@
 		93687E35242ACFAA00139283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93687E33242ACFAA00139283 /* LaunchScreen.storyboard */; };
 		93687E40242ACFAA00139283 /* ActorDegreesOfSeparationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93687E3F242ACFAA00139283 /* ActorDegreesOfSeparationTests.swift */; };
 		93687E4B242ACFAA00139283 /* ActorDegreesOfSeparationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93687E4A242ACFAA00139283 /* ActorDegreesOfSeparationUITests.swift */; };
+		93687E59242AECC400139283 /* ActorsAndMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93687E58242AECC400139283 /* ActorsAndMovies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		93687E46242ACFAA00139283 /* ActorDegreesOfSeparationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActorDegreesOfSeparationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93687E4A242ACFAA00139283 /* ActorDegreesOfSeparationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDegreesOfSeparationUITests.swift; sourceTree = "<group>"; };
 		93687E4C242ACFAA00139283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93687E58242AECC400139283 /* ActorsAndMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsAndMovies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				93687E26242ACFA800139283 /* GameScene.sks */,
 				93687E28242ACFA800139283 /* Actions.sks */,
 				93687E2A242ACFA800139283 /* GameScene.swift */,
+				93687E58242AECC400139283 /* ActorsAndMovies.swift */,
 				93687E2C242ACFA800139283 /* GameViewController.swift */,
 				93687E2E242ACFA800139283 /* Main.storyboard */,
 				93687E31242ACFAA00139283 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				93687E2B242ACFA800139283 /* GameScene.swift in Sources */,
 				93687E2D242ACFA800139283 /* GameViewController.swift in Sources */,
+				93687E59242AECC400139283 /* ActorsAndMovies.swift in Sources */,
 				93687E25242ACFA800139283 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
